@@ -123,7 +123,6 @@ class CalculatorTest {
         calc.pressBinaryOperationKey("x");
         calc.pressDigitKey(1);
 
-
         calc.pressEqualsKey();
         calc.pressEqualsKey();
         calc.pressEqualsKey();
@@ -147,6 +146,7 @@ class CalculatorTest {
 
         assertEquals(expected, actual);
     }
+
 
 }
 
